@@ -5,12 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Gallery</title>
 
     <style>
         * {
             margin: 0;
             padding: 0;
+            overflow-x: hidden;
+        }
+
+        .gallary {
+            width: 100%;
+            padding: 2rem;
         }
 
         .images {
@@ -18,15 +24,15 @@
             height: 60vh;
             overflow: hidden;
             object-fit: cover;
-            margin: 2rem;
+            margin: 1.5rem;
         }
     </style>
 </head>
 
 <body>
-    <div style="width:100%;">
-        <h1>Gallary</h1>
-        <!-- <hr/> -->
+    <div class="gallary">
+        <h1>Gallery</h1>
+        <!-- <hr /> -->
         <img class="images"
             src="https://images.pexels.com/photos/6957667/pexels-photo-6957667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             alt="" />
